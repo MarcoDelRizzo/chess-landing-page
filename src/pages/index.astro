@@ -1,0 +1,22 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import LandingHero from "../components/LandingHero.astro";
+import MinimalFooter from "../components/MinimalFooter.astro";
+---
+
+<BaseLayout
+  title="Chess Mentor | Your Personal Chess Coach, Always On"
+  description="Chess Mentor combines a real-time engine, AI coach, and full game review in one focused desktop app. Join the waitlist for early access."
+  canonical="https://chess.delrizzo.dev"
+  ogImage="https://media.base44.com/images/public/69c87675c5d51e2a52e1d26d/87bf77bbc_image.png"
+>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <div class="page-shell">
+    <main id="main-content">
+      <LandingHero />
+    </main>
+
+    <MinimalFooter />
+  </div>
+</BaseLayout>
